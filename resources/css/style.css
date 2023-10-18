@@ -1,0 +1,189 @@
+/*Limpar formatações padrão*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 1em;
+	overflow-x: hidden;
+}
+/*
+**** Layout ****
+*/
+
+.bi-cup-hot{
+	position: absolute;
+	top: 10px;
+	left: 770px;
+}
+
+.bi-cup-hot2{
+	position: absolute;
+	top: 10px;
+	right: 770px;
+}
+
+.form-inline{
+	width: 500px;
+	padding: 10px;
+}
+
+.bg-dark{
+	border-radius: 20px;
+}
+
+#area-cabecalho {
+	background-color: black;
+	padding: 5px;
+	text-align: center;	
+}
+
+#area-logo{
+	color: aqua;
+	padding: 20px;
+}
+ 
+#area-principal {
+	width: 1400px;
+	margin: 0 auto;
+}
+
+#area-postagens {
+	background-color:#4e4e4e;
+	width: 640px;
+	float: left;
+}
+
+.postagem{
+	padding: 20px;
+	margin-bottom: 10px;
+	box-sizing:content-box;
+}
+
+.postagem p{
+	color: #FFF;
+	font-size: 20px;
+}
+
+.postagem h2{
+	text-decoration: none;
+	text-align: center;
+	background-color: aqua;
+	border-radius: 10px;
+	letter-spacing: 2px;
+}
+
+/*
+**** Formatação do menu ****
+*/
+
+a {
+	text-decoration: none;	
+}
+
+a:link, a:visited {
+	color:cyan;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+	color: #FFF;
+	font-size: 20px;
+	border-radius: 10px;
+	padding: 8px 8px;
+	text-decoration: none;
+}
+
+#area-cabecalho a:hover {
+	width: 10px;
+	margin: 10px;
+	color: black;
+	background: #FFF;
+	text-decoration: none;
+}
+
+/*
+**** Formatações em geral ****
+*/
+
+h1 {
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+
+h2 {
+	color: #f7b600;
+}
+
+.branco{
+	color: white;
+}
+
+/*Entre em contato*/
+
+
+section.contato{
+	padding: 40px 0;
+	letter-spacing: 5px;
+	background-color: #4e4e4e;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.contato h1{
+	font-size: 50px;
+	padding-left: 400px;
+	color: #FFF;
+	max-width: 700px;
+	color: cyan;
+	border-radius: 100px;
+	
+}
+	
+
+section.contato form{
+    width: 62%;
+}
+
+
+.contato input[type=text],
+.contato input[type=email]
+{
+	
+    width:160%;
+    height:50px;
+    margin:10px 0;
+    border-radius:10px;
+    background:darkgray;
+    border: 1px solid #C3CCE8;
+    padding-left: 10px;
+}
+
+.contato textarea
+{
+    width:160%;
+    height:120px;
+    margin:20px 0;
+    border-radius:10px;
+    background:darkgray;
+    border: 1px solid #C3CCE8;
+    padding: 10px;
+    resize: vertical;
+}
+
+.contato input[type=submit]{
+    width:160%;
+    height:50px;
+    display: block;
+    cursor: pointer;
+    border: 0;
+    background: cyan;
+    color:black;
+    font-size: 18px;
+    border-radius:10px;
+}	
+.center h1{
+	padding-left: 200px;
+	width: 100px;
+}
