@@ -130,7 +130,8 @@ h2 {
 
 
 section.contato{
-	padding: 40px 0;
+    text-align: center;
+	padding: 10px 0;
 	letter-spacing: 5px;
 	background-color: #4e4e4e;
 	margin: 0 auto;
@@ -139,12 +140,10 @@ section.contato{
 
 .contato h1{
 	font-size: 50px;
-	padding-left: 400px;
-	color: #FFF;
+	padding-left: 450px;
 	max-width: 700px;
 	color: cyan;
-	border-radius: 100px;
-
+    display: block;
 }
 
 
@@ -162,7 +161,7 @@ section.contato form{
     margin:10px 0;
     border-radius:10px;
     background:darkgray;
-    border: 1px solid #C3CCE8;
+    border: 1px solid white;
     padding-left: 10px;
 }
 
@@ -189,10 +188,7 @@ section.contato form{
     font-size: 18px;
     border-radius:10px;
 }
-.center h1{
-	padding-left: 200px;
-	width: 100px;
-}
+
     </style>
 
 	<link rel="preconnect" href="https://font.gstatic.com">
@@ -216,7 +212,7 @@ section.contato form{
                         <li class="nav-item">
                             <a class="nav-link" href="#">
                                 <img src="/img/download.png" alt="" width="30" height="24" class="d-inline-block align-text">
-                                Tblog
+                                blogTech
                             </a>
                         </li>
                         <li class="nav-item">
@@ -230,7 +226,7 @@ section.contato form{
                                 @if (Route::has('login'))
                                         @auth
                                             <a href="{{ url('/dashboard') }}" >
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
                                                 <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
                                                 <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
                                                 </svg>
@@ -311,21 +307,10 @@ section.contato form{
                     <input type="text" placeholder="Seu Nome..." />
                     <input type="email" placeholder="Seu e-mail" />
                     <textarea placeholder="Sua Mensagem..."></textarea>
-                    <input type="submit" id="botao" name="acao" value="Enviar!">
-                </form>
-            </div>
-        </section>
-	</div>
-</body>
-</html>
-
-<!--boas vindas!-->
-
-<div class="center" >
-	<h1> de JavaScript</h1>
+                    <input type="submit" id="meuBotao" name="acao" value="Enviar!">
 
 <!-- Um botão HTML -->
-<button id="meuBotao">Clique em mim</button>
+<button id="meuBotao"></button>
 
 <!-- JavaScript para exibir uma mensagem pop-up quando o botão é clicado -->
 <script>
@@ -340,4 +325,12 @@ section.contato form{
 </script>
 </body>
 </html>
+                </form>
+            </div>
+        </section>
+	</div>
+</body>
+</html>
+
+<!--boas vindas!-->
 
