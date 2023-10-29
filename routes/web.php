@@ -20,16 +20,10 @@ use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/procurar', function () {
-    return view('procurar');
-});
-Route::get('/artigo/1', function () {
-    return view('Artigo1');
-});
 
-
-
-
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
