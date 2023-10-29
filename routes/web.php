@@ -23,6 +23,9 @@ Route::get('/', function () {
 Route::get('/procurar', function () {
     return view('procurar');
 });
+Route::get('/artigo/1', function () {
+    return view('Artigo1');
+});
 
 
 

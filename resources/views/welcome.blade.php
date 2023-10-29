@@ -2,7 +2,7 @@
  @extends('navbar')
     @section('conteudo')
         <style>
-        
+
         @media (max-width: 1366px) {
             .card-large-screen{
                 width: 16rem;
@@ -35,7 +35,7 @@
                     <img src="https://1.bp.blogspot.com/-wnV4ZvWjJaQ/VupiUH0Il2I/AAAAAAAADYs/rwc4kAnERYgXU8EXqsQGrH5-_o8a3_28w/s1600/business-839788_960_720.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                     <p class="card-text">
-                        <a href="#">
+                        <a href="/artigo/1">
                             <h6>Titulo da noticia</h6>
                         </a>
                         <p>Noticia de teste, apenas para fins ilustrativos</p>
@@ -75,7 +75,7 @@
                     </p>
                     </div>
                 </div>
-                
+
             </div>
         </div>
         <div class="container-fluid">
@@ -95,6 +95,9 @@
                                         <h5 class="card-title">Postagem 1</h5>
                                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        <br>
+                                        <br>
+                                        <a href="/artigo/1" button type="button" class="btn btn-primary">Button</a>
                                     </div>
                                 </div>
                             </div>
@@ -109,6 +112,9 @@
                                         <h5 class="card-title">Postagem 1</h5>
                                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        <br>
+                                        <br>
+                                        <button type="button" class="btn btn-primary">Button</button>
                                     </div>
                                 </div>
                             </div>
@@ -123,6 +129,9 @@
                                         <h5 class="card-title">Postagem 1</h5>
                                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        <br>
+                                        <br>
+                                        <button type="button" class="btn btn-primary">Button</button>
                                     </div>
                                 </div>
                             </div>
@@ -137,6 +146,9 @@
                                         <h5 class="card-title">Postagem 1</h5>
                                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        <br>
+                                        <br>
+                                        <a button type="button" class="btn btn-primary">Button</a>
                                     </div>
                                 </div>
                             </div>
@@ -151,6 +163,9 @@
                                         <h5 class="card-title">Postagem 1</h5>
                                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        <br>
+                                        <br>
+                                        <button type="button" class="btn btn-primary">Button</button>
                                     </div>
                                 </div>
                             </div>
@@ -162,9 +177,9 @@
                         <span class="text-white ml-2 bg-dark mt-4">Autores</span>
                     </div>
                     <div class="row">
-                        
+
                     </div>
-                    
+
                 </div>
             </div>
         </div>
